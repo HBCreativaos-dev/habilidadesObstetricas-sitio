@@ -1,0 +1,409 @@
+body {
+  background: #fff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+header {
+  background: #000;
+  padding: 0;
+  color: #000;
+}
+footer {
+  background: rgb(0, 0, 0, 1);
+  color:#fff;
+}
+nav {
+  background: #fff;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+.h1,
+h1 {
+  font-size: 2rem;
+}
+a {
+  color: #000;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: rgba(249, 2, 125, 1);
+}
+ul li a.active {
+  color: rgba(249, 2, 125, 1);
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+:focus {
+  outline: none !important;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #000;
+  border-color: transparent;
+  padding: 0.5em 1em;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #f9027d;
+  border-color: transparent;
+  padding: 0.5em 1em;
+}
+.btn-light {
+  color: #fff;
+  background-color: #f9027d;
+  border-color: transparent;
+  padding: 0.5em 1em;
+}
+.text-resalt {
+  color: #f9027d;
+}
+.ft10 {
+  font-size: 10px;
+}
+.alert-dark {
+  color: #fff;
+  background-color: #000;
+  border-color: transparent;
+}
+.alert-dark.pink {
+  color: #000;
+  background-color: #fbd5dc;
+  border-color: transparent;
+}
+.alert {
+  position: relative;
+  padding: 2.75rem 1.25rem;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.container-fluid {
+  padding: 0 10%;
+}
+.cont-contorn{
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+}
+.link_pink{
+    color:#f9027d;
+    font-size: 14px;
+    font-weight: 800;
+}
+.fs-12{
+    font-size: 12px;
+}
+.cont-pink{
+    background:#f9027d ;
+}
+.btn-partner {
+  text-align: end;
+}
+.text-center {
+  text-align: center;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+
+/*Menu ------ Inicio*/
+header button {
+  float: right;
+}
+.content-menu-extra {
+  background: #000;
+}
+.content-menu-extra a {
+  color: #fff;
+}
+.border_lateral {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 0.2em;
+  vertical-align: middle;
+  background: #000;
+}
+.navbar-toggler {
+  display: grid;
+  height: 100%;
+  padding: 22px 0 10px;
+}
+.nav-second {
+  text-align: end;
+}
+.nav-second .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+.nav-icon .nav-link {
+  padding: 0.5rem 0;
+}
+/*Menu ------ Fin*/
+
+/*Principal ------ Inicio*/
+.principal-content,
+.banner {
+  background: #fff;
+  color: #000;
+}
+.pt {
+  padding-top: 7%;
+}
+/*Principal ------ Fin*/
+
+/*Info ------ Inicio*/
+.info-content {
+  height: auto;
+  background: url("../img/background_start.jpg");
+  background-position: top center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+  background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+  /*background-attachment: fixed; La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-color: #fff; /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  color: #000;
+}
+
+.info-content .card {
+  background: transparent;
+}
+.info-content .pd {
+  padding-right: 10%;
+}
+.info-content a:hover {
+  color: rgba(249, 2, 125, 1) !important;
+}
+/*Info ------ Fin*/
+
+/*Products ------ Inicio*/
+.products-content {
+  background: rgba(249, 2, 125, 1);
+  height: auto;
+  padding: 0;
+  color: #000;
+}
+/*Products ------ Fin*/
+
+.clients-content {
+  height: auto;
+  background: url("../img/background_home_2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  color: #000;
+}
+.clients-content .img-slider {
+  min-height: 200px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 50px;
+  height: 5px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 0px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 8%;
+  color: #000;
+  text-align: center;
+  opacity: 0.5;
+  background: rgb(0, 0, 0, 0.2);
+  transition: opacity 0.15s ease;
+}
+
+#bx_form_iframe_2 {
+  height: 600px !important;
+}
+
+.extra-content {
+  height: auto;
+  background: #000;
+  padding: 0;
+  color: #000;
+}
+.blog-content {
+  text-align: center;
+}
+
+.content-footer-white {
+  background: #fff;
+  color: #000;
+}
+
+.slideanim {
+  visibility: hidden;
+  visibility: visible\9; /*For old IE browsers IE6-8 */
+}
+.slideanim.slide {
+  visibility: visible;
+  animation: slide 1s;
+}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*Contact Section ------ Inicio*/
+.we {
+}
+.we .banner {
+  height: auto;
+  background: url("../img/banner_we.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+}
+
+/*Contact Section ------ Fin*/
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*Tienda Section ------ Inicio*/
+.tienda {
+}
+.tienda .banner {
+  height: auto;
+  background: url("../img/banner_tienda.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+}
+.tienda .card-header {
+    padding: 0;
+}
+.tienda .card{
+    padding-top: 15px;
+    text-align: center;
+    height: 100%;
+}
+
+/*Tienda Section ------ Fin*/
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+.contac .banner {
+    height: auto;
+    background: url("../img/banner_we.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    color: #fff;
+  }
+
+
+
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Responsive ------ Inicio*/
+@media (max-width: 576px) {
+  .content-video {
+    display: block;
+  }
+  .principal-content,
+  .banner {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 760px) {
+    .content-video {
+      display: block;
+    }
+    .principal-content,
+    .banner {
+      margin-top: 70px;
+    }
+    .we-logo{
+        visibility: collapse !important;
+        height: 0px;
+    }
+    .pt-5-r{
+        padding-top: 20px;
+        padding-top: 30% !important;
+    }
+    .pt-5-r .h2, h2 {
+        font-size: 1.5rem;
+    }
+  }
+
+/*Responsive ------ Fin*/
