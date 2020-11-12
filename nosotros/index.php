@@ -85,7 +85,7 @@
         $('.loading-lang').addClass('show');
         $.ajax({
           
-          url: 'lang/'+lang+'.txt',
+          url: '../lang/'+lang+'.txt',
           error:function(){
             alert('No se cargó traducción');
           },
